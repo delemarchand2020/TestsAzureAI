@@ -16,7 +16,7 @@ Le notebook "PoC_0_shot_classification.ipynb" met en œuvre un processus de clas
 
 4. **Embeddings et Classification 0-Shot** :
    - Les embeddings textuels sont générés à l'aide de l'API OpenAI. Ces embeddings permettent d'évaluer la similarité entre le texte des documents et des catégories prédéfinies sans nécessiter un entraînement spécifique sur des exemples de ces catégories (0-shot classification).
-   - Une fonction custom `my_cosine_similarity` calcule la similarité entre les vecteurs d'embeddings pour classer les documents.
+   - La fonction `cosine_similarity` calcule la similarité entre les vecteurs d'embeddings pour classer les documents.
 
 ### Catégorisation des Documents
 - Le notebook défini une liste de sous-types de documents et les associe à des catégories plus larges telles que "Preuve de scolarité", "Billet du médecin", et "Facture". Cette mapping structurel aide à classifier de manière plus cohérente et organisée.
